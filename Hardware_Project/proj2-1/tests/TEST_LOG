@@ -1,0 +1,18 @@
+Testing files...
+	PASSED test: ALU add (with overflow) test, with output in python
+	PASSED test: ALU arithmetic right shift test
+	PASSED test: ALU or
+	PASSED test: ALU sll
+	PASSED test: ALU srl
+	PASSED test: RegFile read/write test
+	PASSED test: RegFile $zero test
+Format is student then expected
+Test #	$s0 Value	$s1 Value	$s2 Value	$ra Value	$sp Value	Read Data 1	Read Data 2
+0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0
+1	0	0	0	0	0	0	0
+1	0	0	0	0	0	0	0
+2	0	0	0	0	0	0	0
+2	bad00dad	0	0	0	0	0	0
+	FAILED test: RegFile debug outputs test (Did not match expected output)
+Passed 7/8 tests
